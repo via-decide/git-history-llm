@@ -1,6 +1,7 @@
 You are working in repository via-decide/git-history-llm on branch main.
 
 MISSION
+Create commit anomaly detector.
 Create repo evolution timeline.
 Create repository scanner.
 Create commit loader.

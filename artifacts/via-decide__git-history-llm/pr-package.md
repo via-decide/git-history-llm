@@ -1,3 +1,9 @@
+Branch: simba/create-commit-anomaly-detector
+Title: Create commit anomaly detector.
+
+## Summary
+- Repo orchestration task for via-decide/git-history-llm
+- Goal: Create commit anomaly detector.
 Branch: simba/create-repo-evolution-timeline
 Title: Create repo evolution timeline.
 

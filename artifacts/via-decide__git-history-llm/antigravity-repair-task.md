@@ -4,6 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
+Create commit anomaly detector.
 Create repo evolution timeline.
 Create repository scanner.
 Create commit loader.
