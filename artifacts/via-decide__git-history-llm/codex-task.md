@@ -1,6 +1,7 @@
 You are working in repository via-decide/git-history-llm on branch main.
 
 MISSION
+Create file evolution tracker.
 Create branch analyzer.
 Create merge conflict detector.
 Create commit clustering module.
