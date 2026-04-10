@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Create a git history extraction engine.
+Create commit diff extractor.
 
 RULES
 1. Audit touched files first and identify regressions.
