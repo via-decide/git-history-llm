@@ -1,6 +1,7 @@
 You are working in repository via-decide/git-history-llm on branch main.
 
 MISSION
+Create command line interface.
 Generate reasoning dataset from git history.
 Build knowledge graph from git history.
 Infer developer reasoning patterns from commit history.

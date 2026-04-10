@@ -4,6 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
+Create command line interface.
 Generate reasoning dataset from git history.
 Build knowledge graph from git history.
 Infer developer reasoning patterns from commit history.

@@ -1,3 +1,9 @@
+Branch: simba/create-command-line-interface
+Title: Create command line interface.
+
+## Summary
+- Repo orchestration task for via-decide/git-history-llm
+- Goal: Create command line interface.
 Branch: simba/generate-reasoning-dataset-from-git-history
 Title: Generate reasoning dataset from git history.
 
