@@ -1,7 +1,7 @@
 {
   "repo": "via-decide/git-history-llm",
   "mode": "codex_then_antigravity",
-  "branch": "simba/create-a-git-history-extraction-engine",
+  "branch": "simba/create-file-evolution-tracker",
   "files_to_create": [
     "codex-task.md",
     "antigravity-repair-task.md",
