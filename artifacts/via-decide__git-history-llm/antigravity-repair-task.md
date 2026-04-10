@@ -5,6 +5,9 @@ Validate and repair only the files touched by the previous implementation.
 
 TASK
 Generate repository architecture timeline.
+Extract engineering decisions from commit history.
+Create semantic analysis module for commit messages.
+
 
 RULES
 1. Audit touched files first and identify regressions.
