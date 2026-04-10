@@ -4,6 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
+Create LLM interface for reasoning over git history.
 Visualize repository evolution.
 Create command line interface.
 Generate reasoning dataset from git history.

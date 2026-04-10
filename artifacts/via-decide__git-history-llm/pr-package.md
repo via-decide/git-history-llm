@@ -1,3 +1,9 @@
+Branch: simba/create-llm-interface-for-reasoning-over-git-hist
+Title: Create LLM interface for reasoning over git history.
+
+## Summary
+- Repo orchestration task for via-decide/git-history-llm
+- Goal: Create LLM interface for reasoning over git history.
 Branch: simba/visualize-repository-evolution
 Title: Visualize repository evolution.
 
