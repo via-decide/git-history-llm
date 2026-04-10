@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Create a git history extraction engine.
+Build knowledge graph from git history.
 
 RULES
 1. Audit touched files first and identify regressions.
