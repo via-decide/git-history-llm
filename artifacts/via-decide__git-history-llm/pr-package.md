@@ -1,3 +1,9 @@
+Branch: simba/create-commit-intent-classifier
+Title: Create commit intent classifier.
+
+## Summary
+- Repo orchestration task for via-decide/git-history-llm
+- Goal: Create commit intent classifier.
 Branch: simba/create-llm-interface-for-reasoning-over-git-hist
 Title: Create LLM interface for reasoning over git history.
 
