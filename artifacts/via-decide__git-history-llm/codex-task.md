@@ -1,7 +1,7 @@
 You are working in repository via-decide/git-history-llm on branch main.
 
 MISSION
-Create a git history extraction engine.
+Build knowledge graph from git history.
 
 CONSTRAINTS
 Preserve existing code; prefer additive changes.
