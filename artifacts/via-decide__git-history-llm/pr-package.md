@@ -1,9 +1,9 @@
-Branch: simba/create-a-git-history-extraction-engine
-Title: Create a git history extraction engine.
+Branch: simba/create-llm-interface-for-reasoning-over-git-hist
+Title: Create LLM interface for reasoning over git history.
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Create a git history extraction engine.
+- Goal: Create LLM interface for reasoning over git history.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
