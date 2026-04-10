@@ -1,3 +1,9 @@
+Branch: simba/create-dependency-change-analyzer
+Title: Create dependency change analyzer.
+
+## Summary
+- Repo orchestration task for via-decide/git-history-llm
+- Goal: Create dependency change analyzer.
 Branch: simba/create-commit-message-tokenizer
 Title: Create commit message tokenizer.
 

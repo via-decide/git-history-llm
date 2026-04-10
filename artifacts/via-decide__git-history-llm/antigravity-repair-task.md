@@ -4,6 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
+Create dependency change analyzer.
 Create commit message tokenizer.
 Create commit embedding generator.
 Create commit intent classifier.
