@@ -1,3 +1,9 @@
+Branch: simba/create-lesson-extractor
+Title: Create lesson extractor.
+
+## Summary
+- Repo orchestration task for via-decide/git-history-llm
+- Goal: Create lesson extractor.
 Branch: simba/create-developer-activity-profiler
 Title: Create developer activity profiler.
 

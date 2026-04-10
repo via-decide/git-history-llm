@@ -1,6 +1,7 @@
 {
   "repo": "via-decide/git-history-llm",
   "mode": "codex_then_antigravity",
+  "branch": "simba/create-lesson-extractor",
   "branch": "simba/create-developer-activity-profiler",
   "branch": "simba/create-commit-anomaly-detector",
   "branch": "simba/create-repo-evolution-timeline",
