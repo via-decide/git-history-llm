@@ -5,6 +5,30 @@ Validate and repair only the files touched by the previous implementation.
 
 TASK
 Create repository scanner.
+Create commit loader.
+Create commit diff extractor.
+Create commit metadata normalizer.
+Create commit frequency analyzer.
+Create file evolution tracker.
+Create branch analyzer.
+Create merge conflict detector.
+Create commit clustering module.
+Create architecture change detector.
+Create refactor detection module.
+Create dependency change analyzer.
+Create commit message tokenizer.
+Create commit embedding generator.
+Create commit intent classifier.
+Create LLM interface for reasoning over git history.
+Visualize repository evolution.
+Create command line interface.
+Generate reasoning dataset from git history.
+Build knowledge graph from git history.
+Infer developer reasoning patterns from commit history.
+Generate repository architecture timeline.
+Extract engineering decisions from commit history.
+Create semantic analysis module for commit messages.
+
 
 RULES
 1. Audit touched files first and identify regressions.
