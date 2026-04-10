@@ -1,3 +1,9 @@
+Branch: simba/create-architecture-change-detector
+Title: Create architecture change detector.
+
+## Summary
+- Repo orchestration task for via-decide/git-history-llm
+- Goal: Create architecture change detector.
 Branch: simba/create-refactor-detection-module
 Title: Create refactor detection module.
 

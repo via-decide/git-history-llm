@@ -1,6 +1,7 @@
 {
   "repo": "via-decide/git-history-llm",
   "mode": "codex_then_antigravity",
+  "branch": "simba/create-architecture-change-detector",
   "branch": "simba/create-refactor-detection-module",
   "branch": "simba/create-dependency-change-analyzer",
   "branch": "simba/create-commit-message-tokenizer",
