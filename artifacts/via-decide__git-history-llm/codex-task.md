@@ -1,6 +1,7 @@
 You are working in repository via-decide/git-history-llm on branch main.
 
 MISSION
+Create refactor detection module.
 Create dependency change analyzer.
 Create commit message tokenizer.
 Create commit embedding generator.

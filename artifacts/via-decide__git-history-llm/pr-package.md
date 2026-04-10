@@ -1,3 +1,9 @@
+Branch: simba/create-refactor-detection-module
+Title: Create refactor detection module.
+
+## Summary
+- Repo orchestration task for via-decide/git-history-llm
+- Goal: Create refactor detection module.
 Branch: simba/create-dependency-change-analyzer
 Title: Create dependency change analyzer.
 
