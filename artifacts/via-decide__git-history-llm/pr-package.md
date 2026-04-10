@@ -1,9 +1,9 @@
-Branch: simba/create-a-git-history-extraction-engine
-Title: Create a git history extraction engine.
+Branch: simba/create-engineering-decision-miner
+Title: Create engineering decision miner.
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Create a git history extraction engine.
+- Goal: Create engineering decision miner.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
