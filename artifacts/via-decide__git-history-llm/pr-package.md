@@ -1,3 +1,9 @@
+Branch: simba/create-commit-frequency-analyzer
+Title: Create commit frequency analyzer.
+
+## Summary
+- Repo orchestration task for via-decide/git-history-llm
+- Goal: Create commit frequency analyzer.
 Branch: simba/create-file-evolution-tracker
 Title: Create file evolution tracker.
 

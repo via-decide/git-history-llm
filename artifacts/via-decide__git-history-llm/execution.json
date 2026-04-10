@@ -1,6 +1,7 @@
 {
   "repo": "via-decide/git-history-llm",
   "mode": "codex_then_antigravity",
+  "branch": "simba/create-commit-frequency-analyzer",
   "branch": "simba/create-file-evolution-tracker",
   "branch": "simba/create-branch-analyzer",
   "branch": "simba/create-merge-conflict-detector",
