@@ -1,3 +1,9 @@
+Branch: simba/build-knowledge-graph-from-git-history
+Title: Build knowledge graph from git history.
+
+## Summary
+- Repo orchestration task for via-decide/git-history-llm
+- Goal: Build knowledge graph from git history.
 Branch: simba/infer-developer-reasoning-patterns-from-commit-h
 Title: Infer developer reasoning patterns from commit history.
 

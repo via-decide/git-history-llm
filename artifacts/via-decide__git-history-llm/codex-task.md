@@ -1,6 +1,7 @@
 You are working in repository via-decide/git-history-llm on branch main.
 
 MISSION
+Build knowledge graph from git history.
 Infer developer reasoning patterns from commit history.
 Generate repository architecture timeline.
 Extract engineering decisions from commit history.
