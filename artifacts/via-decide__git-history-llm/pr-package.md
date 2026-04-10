@@ -1,3 +1,9 @@
+Branch: simba/generate-reasoning-dataset-from-git-history
+Title: Generate reasoning dataset from git history.
+
+## Summary
+- Repo orchestration task for via-decide/git-history-llm
+- Goal: Generate reasoning dataset from git history.
 Branch: simba/build-knowledge-graph-from-git-history
 Title: Build knowledge graph from git history.
 
