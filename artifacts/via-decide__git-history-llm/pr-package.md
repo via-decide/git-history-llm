@@ -1,3 +1,9 @@
+Branch: simba/create-repository-scanner
+Title: Create repository scanner.
+
+## Summary
+- Repo orchestration task for via-decide/git-history-llm
+- Goal: Create repository scanner.
 Branch: simba/create-commit-loader
 Title: Create commit loader.
 
