@@ -4,6 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
+Create commit embedding generator.
 Create commit intent classifier.
 Create LLM interface for reasoning over git history.
 Visualize repository evolution.

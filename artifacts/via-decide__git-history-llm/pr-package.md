@@ -1,3 +1,9 @@
+Branch: simba/create-commit-embedding-generator
+Title: Create commit embedding generator.
+
+## Summary
+- Repo orchestration task for via-decide/git-history-llm
+- Goal: Create commit embedding generator.
 Branch: simba/create-commit-intent-classifier
 Title: Create commit intent classifier.
 
