@@ -1,9 +1,9 @@
-Branch: simba/create-a-git-history-extraction-engine
-Title: Create a git history extraction engine.
+Branch: simba/create-dependency-change-analyzer
+Title: Create dependency change analyzer.
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Create a git history extraction engine.
+- Goal: Create dependency change analyzer.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
