@@ -1,9 +1,9 @@
-Branch: simba/create-a-git-history-extraction-engine
-Title: Create a git history extraction engine.
+Branch: simba/infer-developer-reasoning-patterns-from-commit-h
+Title: Infer developer reasoning patterns from commit history.
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Create a git history extraction engine.
+- Goal: Infer developer reasoning patterns from commit history.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
