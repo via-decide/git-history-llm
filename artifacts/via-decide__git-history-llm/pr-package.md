@@ -1,3 +1,9 @@
+Branch: simba/create-developer-activity-profiler
+Title: Create developer activity profiler.
+
+## Summary
+- Repo orchestration task for via-decide/git-history-llm
+- Goal: Create developer activity profiler.
 Branch: simba/create-commit-anomaly-detector
 Title: Create commit anomaly detector.
 
