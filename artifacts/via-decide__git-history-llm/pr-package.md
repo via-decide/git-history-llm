@@ -1,3 +1,9 @@
+Branch: simba/create-merge-conflict-detector
+Title: Create merge conflict detector.
+
+## Summary
+- Repo orchestration task for via-decide/git-history-llm
+- Goal: Create merge conflict detector.
 Branch: simba/create-commit-clustering-module
 Title: Create commit clustering module.
 

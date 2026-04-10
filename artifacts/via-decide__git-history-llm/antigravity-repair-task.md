@@ -4,6 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
+Create merge conflict detector.
 Create commit clustering module.
 Create architecture change detector.
 Create refactor detection module.
