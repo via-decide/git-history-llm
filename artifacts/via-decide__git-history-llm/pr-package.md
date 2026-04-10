@@ -1,9 +1,9 @@
-Branch: simba/create-a-git-history-extraction-engine
-Title: Create a git history extraction engine.
+Branch: simba/create-commit-message-tokenizer
+Title: Create commit message tokenizer.
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Create a git history extraction engine.
+- Goal: Create commit message tokenizer.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
