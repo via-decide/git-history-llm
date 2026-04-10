@@ -1,9 +1,9 @@
-Branch: simba/create-a-git-history-extraction-engine
-Title: Create a git history extraction engine.
+Branch: simba/extract-engineering-decisions-from-commit-histor
+Title: Extract engineering decisions from commit history.
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Create a git history extraction engine.
+- Goal: Extract engineering decisions from commit history.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
