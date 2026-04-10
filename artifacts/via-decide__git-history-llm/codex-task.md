@@ -1,6 +1,7 @@
 You are working in repository via-decide/git-history-llm on branch main.
 
 MISSION
+Create commit loader.
 Create commit diff extractor.
 Create commit metadata normalizer.
 Create commit frequency analyzer.

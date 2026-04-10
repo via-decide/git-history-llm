@@ -1,3 +1,9 @@
+Branch: simba/create-commit-loader
+Title: Create commit loader.
+
+## Summary
+- Repo orchestration task for via-decide/git-history-llm
+- Goal: Create commit loader.
 Branch: simba/create-commit-diff-extractor
 Title: Create commit diff extractor.
 
