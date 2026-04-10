@@ -1,11 +1,9 @@
 You are working in repository via-decide/git-history-llm on branch main.
 
 MISSION
-<<<<<<< simba/extract-engineering-decisions-from-commit-histor
+Generate repository architecture timeline.
 Extract engineering decisions from commit history.
-=======
 Create semantic analysis module for commit messages.
->>>>>>> main
 
 CONSTRAINTS
 Preserve existing code; prefer additive changes.
