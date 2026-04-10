@@ -1,3 +1,9 @@
+Branch: simba/create-commit-message-tokenizer
+Title: Create commit message tokenizer.
+
+## Summary
+- Repo orchestration task for via-decide/git-history-llm
+- Goal: Create commit message tokenizer.
 Branch: simba/create-commit-embedding-generator
 Title: Create commit embedding generator.
 

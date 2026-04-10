@@ -1,6 +1,7 @@
 You are working in repository via-decide/git-history-llm on branch main.
 
 MISSION
+Create commit message tokenizer.
 Create commit embedding generator.
 Create commit intent classifier.
 Create LLM interface for reasoning over git history.

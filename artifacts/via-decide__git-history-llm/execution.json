@@ -1,6 +1,7 @@
 {
   "repo": "via-decide/git-history-llm",
   "mode": "codex_then_antigravity",
+  "branch": "simba/create-commit-message-tokenizer",
   "branch": "simba/create-commit-embedding-generator",
   "branch": "simba/create-commit-intent-classifier",
   "branch": "simba/create-llm-interface-for-reasoning-over-git-hist",
