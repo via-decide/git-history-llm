@@ -1,9 +1,9 @@
-Branch: simba/create-a-git-history-extraction-engine
-Title: Create a git history extraction engine.
+Branch: simba/generate-reasoning-dataset-from-git-history
+Title: Generate reasoning dataset from git history.
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Create a git history extraction engine.
+- Goal: Generate reasoning dataset from git history.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
