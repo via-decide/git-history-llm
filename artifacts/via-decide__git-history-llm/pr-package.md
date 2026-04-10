@@ -1,9 +1,9 @@
-Branch: simba/create-a-git-history-extraction-engine
-Title: Create a git history extraction engine.
+Branch: simba/create-commit-frequency-analyzer
+Title: Create commit frequency analyzer.
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Create a git history extraction engine.
+- Goal: Create commit frequency analyzer.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
