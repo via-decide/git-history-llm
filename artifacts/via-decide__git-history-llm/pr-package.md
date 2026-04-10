@@ -1,9 +1,9 @@
-Branch: simba/create-a-git-history-extraction-engine
-Title: Create a git history extraction engine.
+Branch: simba/create-file-evolution-tracker
+Title: Create file evolution tracker.
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Create a git history extraction engine.
+- Goal: Create file evolution tracker.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
