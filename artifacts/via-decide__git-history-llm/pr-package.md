@@ -1,9 +1,9 @@
-Branch: simba/create-a-git-history-extraction-engine
-Title: Create a git history extraction engine.
+Branch: simba/create-commit-embedding-generator
+Title: Create commit embedding generator.
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Create a git history extraction engine.
+- Goal: Create commit embedding generator.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
