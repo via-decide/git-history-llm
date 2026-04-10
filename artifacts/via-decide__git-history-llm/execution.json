@@ -2,6 +2,10 @@
   "repo": "via-decide/git-history-llm",
   "mode": "codex_then_antigravity",
   "branch": "simba/build-knowledge-graph-from-git-history",
+  "branch": "simba/infer-developer-reasoning-patterns-from-commit-h",
+  "branch": "simba/generate-repository-architecture-timeline",
+  "branch": "simba/extract-engineering-decisions-from-commit-histor",
+  "branch": "simba/create-semantic-analysis-module-for-commit-messa",
   "files_to_create": [
     "codex-task.md",
     "antigravity-repair-task.md",
