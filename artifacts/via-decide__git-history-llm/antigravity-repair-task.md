@@ -5,6 +5,15 @@ Validate and repair only the files touched by the previous implementation.
 
 TASK
 Create LLM interface for reasoning over git history.
+Visualize repository evolution.
+Create command line interface.
+Generate reasoning dataset from git history.
+Build knowledge graph from git history.
+Infer developer reasoning patterns from commit history.
+Generate repository architecture timeline.
+Extract engineering decisions from commit history.
+Create semantic analysis module for commit messages.
+
 
 RULES
 1. Audit touched files first and identify regressions.
