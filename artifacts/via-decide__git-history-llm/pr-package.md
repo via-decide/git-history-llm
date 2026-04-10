@@ -1,3 +1,9 @@
+Branch: simba/create-engineering-decision-miner
+Title: Create engineering decision miner.
+
+## Summary
+- Repo orchestration task for via-decide/git-history-llm
+- Goal: Create engineering decision miner.
 Branch: simba/create-lesson-extractor
 Title: Create lesson extractor.
 

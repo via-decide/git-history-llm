@@ -1,6 +1,7 @@
 You are working in repository via-decide/git-history-llm on branch main.
 
 MISSION
+Create engineering decision miner.
 Create lesson extractor.
 Create developer activity profiler.
 Create commit anomaly detector.
