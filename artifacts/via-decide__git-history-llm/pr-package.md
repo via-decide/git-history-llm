@@ -1,3 +1,9 @@
+Branch: simba/create-commit-clustering-module
+Title: Create commit clustering module.
+
+## Summary
+- Repo orchestration task for via-decide/git-history-llm
+- Goal: Create commit clustering module.
 Branch: simba/create-architecture-change-detector
 Title: Create architecture change detector.
 

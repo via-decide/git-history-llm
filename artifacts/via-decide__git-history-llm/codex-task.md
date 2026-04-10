@@ -1,6 +1,7 @@
 You are working in repository via-decide/git-history-llm on branch main.
 
 MISSION
+Create commit clustering module.
 Create architecture change detector.
 Create refactor detection module.
 Create dependency change analyzer.
