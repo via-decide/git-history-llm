@@ -1,9 +1,9 @@
-Branch: simba/create-a-git-history-extraction-engine
-Title: Create a git history extraction engine.
+Branch: simba/generate-repository-architecture-timeline
+Title: Generate repository architecture timeline.
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Create a git history extraction engine.
+- Goal: Generate repository architecture timeline.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
