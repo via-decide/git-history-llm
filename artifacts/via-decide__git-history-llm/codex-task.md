@@ -1,7 +1,7 @@
 You are working in repository via-decide/git-history-llm on branch main.
 
 MISSION
-Create a git history extraction engine.
+Create commit loader.
 
 CONSTRAINTS
 Preserve existing code; prefer additive changes.
