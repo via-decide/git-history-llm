@@ -1,9 +1,9 @@
-Branch: simba/create-a-git-history-extraction-engine
-Title: Create a git history extraction engine.
+Branch: simba/create-commit-anomaly-detector
+Title: Create commit anomaly detector.
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Create a git history extraction engine.
+- Goal: Create commit anomaly detector.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
