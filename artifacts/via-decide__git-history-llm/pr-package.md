@@ -1,3 +1,9 @@
+Branch: simba/create-repo-evolution-timeline
+Title: Create repo evolution timeline.
+
+## Summary
+- Repo orchestration task for via-decide/git-history-llm
+- Goal: Create repo evolution timeline.
 Branch: simba/create-repository-scanner
 Title: Create repository scanner.
 
