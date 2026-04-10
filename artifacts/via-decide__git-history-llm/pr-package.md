@@ -1,9 +1,9 @@
-Branch: simba/create-a-git-history-extraction-engine
-Title: Create a git history extraction engine.
+Branch: simba/create-commit-intent-classifier
+Title: Create commit intent classifier.
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Create a git history extraction engine.
+- Goal: Create commit intent classifier.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
