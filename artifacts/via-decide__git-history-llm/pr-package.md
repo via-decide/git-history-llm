@@ -1,9 +1,9 @@
-Branch: simba/create-a-git-history-extraction-engine
-Title: Create a git history extraction engine.
+Branch: simba/build-knowledge-graph-from-git-history
+Title: Build knowledge graph from git history.
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Create a git history extraction engine.
+- Goal: Build knowledge graph from git history.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
