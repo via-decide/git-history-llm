@@ -1,3 +1,9 @@
+Branch: simba/create-branch-analyzer
+Title: Create branch analyzer.
+
+## Summary
+- Repo orchestration task for via-decide/git-history-llm
+- Goal: Create branch analyzer.
 Branch: simba/create-merge-conflict-detector
 Title: Create merge conflict detector.
 
