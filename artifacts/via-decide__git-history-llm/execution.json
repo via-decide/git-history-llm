@@ -1,6 +1,7 @@
 {
   "repo": "via-decide/git-history-llm",
   "mode": "codex_then_antigravity",
+  "branch": "simba/extract-engineering-decisions-from-commit-histor",
   "branch": "simba/create-semantic-analysis-module-for-commit-messa",
   "files_to_create": [
     "codex-task.md",
