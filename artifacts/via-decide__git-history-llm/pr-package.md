@@ -1,3 +1,9 @@
+Branch: simba/create-commit-diff-extractor
+Title: Create commit diff extractor.
+
+## Summary
+- Repo orchestration task for via-decide/git-history-llm
+- Goal: Create commit diff extractor.
 Branch: simba/create-commit-metadata-normalizer
 Title: Create commit metadata normalizer.
 
