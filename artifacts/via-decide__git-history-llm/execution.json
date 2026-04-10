@@ -1,6 +1,7 @@
 {
   "repo": "via-decide/git-history-llm",
   "mode": "codex_then_antigravity",
+  "branch": "simba/visualize-repository-evolution",
   "branch": "simba/create-command-line-interface",
   "branch": "simba/generate-reasoning-dataset-from-git-history",
   "branch": "simba/build-knowledge-graph-from-git-history",

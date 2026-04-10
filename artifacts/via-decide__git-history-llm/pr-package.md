@@ -1,3 +1,9 @@
+Branch: simba/visualize-repository-evolution
+Title: Visualize repository evolution.
+
+## Summary
+- Repo orchestration task for via-decide/git-history-llm
+- Goal: Visualize repository evolution.
 Branch: simba/create-command-line-interface
 Title: Create command line interface.
 
