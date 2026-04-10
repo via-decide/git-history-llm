@@ -1,6 +1,7 @@
 You are working in repository via-decide/git-history-llm on branch main.
 
 MISSION
+Create commit metadata normalizer.
 Create commit frequency analyzer.
 Create file evolution tracker.
 Create branch analyzer.

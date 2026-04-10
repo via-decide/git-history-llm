@@ -4,6 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
+Create commit metadata normalizer.
 Create commit frequency analyzer.
 Create file evolution tracker.
 Create branch analyzer.

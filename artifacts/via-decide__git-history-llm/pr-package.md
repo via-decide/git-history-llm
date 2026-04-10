@@ -1,3 +1,9 @@
+Branch: simba/create-commit-metadata-normalizer
+Title: Create commit metadata normalizer.
+
+## Summary
+- Repo orchestration task for via-decide/git-history-llm
+- Goal: Create commit metadata normalizer.
 Branch: simba/create-commit-frequency-analyzer
 Title: Create commit frequency analyzer.
 
