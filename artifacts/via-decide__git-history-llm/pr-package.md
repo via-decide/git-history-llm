@@ -1,3 +1,9 @@
+Branch: simba/infer-developer-reasoning-patterns-from-commit-h
+Title: Infer developer reasoning patterns from commit history.
+
+## Summary
+- Repo orchestration task for via-decide/git-history-llm
+- Goal: Infer developer reasoning patterns from commit history.
 Branch: simba/generate-repository-architecture-timeline
 Title: Generate repository architecture timeline.
 

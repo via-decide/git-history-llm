@@ -1,6 +1,7 @@
 You are working in repository via-decide/git-history-llm on branch main.
 
 MISSION
+Infer developer reasoning patterns from commit history.
 Generate repository architecture timeline.
 Extract engineering decisions from commit history.
 Create semantic analysis module for commit messages.
