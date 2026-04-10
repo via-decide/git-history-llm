@@ -1,9 +1,9 @@
-Branch: simba/create-a-git-history-extraction-engine
-Title: Create a git history extraction engine.
+Branch: simba/create-semantic-analysis-module-for-commit-messa
+Title: Create semantic analysis module for commit messages.
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Create a git history extraction engine.
+- Goal: Create semantic analysis module for commit messages.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
