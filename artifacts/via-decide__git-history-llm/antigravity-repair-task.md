@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Create commit message standardizer and rewriter.
+Create domain knowledge mapping tool.
 
 RULES
 1. Audit touched files first and identify regressions.
