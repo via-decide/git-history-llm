@@ -1,7 +1,7 @@
 {
   "repo": "via-decide/git-history-llm",
   "mode": "codex_then_antigravity",
-  "branch": "simba/create-historical-code-duplication-tracker",
+  "branch": "simba/create-historical-pr-review-pattern-extractor",
   "files_to_create": [
     "codex-task.md",
     "antigravity-repair-task.md",

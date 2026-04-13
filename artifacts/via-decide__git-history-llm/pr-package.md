@@ -1,9 +1,9 @@
-Branch: simba/create-historical-code-duplication-tracker
-Title: Create historical code duplication tracker.
+Branch: simba/create-historical-pr-review-pattern-extractor
+Title: Create historical PR review pattern extractor.
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Create historical code duplication tracker.
+- Goal: Create historical PR review pattern extractor.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests

@@ -1,7 +1,7 @@
 You are working in repository via-decide/git-history-llm on branch main.
 
 MISSION
-Create historical code duplication tracker.
+Create historical PR review pattern extractor.
 
 CONSTRAINTS
 Preserve existing code; prefer additive changes.
