@@ -1,9 +1,9 @@
-Branch: simba/create-contributor-persona-analyzer
-Title: Create contributor persona analyzer.
+Branch: simba/create-semantic-code-churn-detector
+Title: Create semantic code churn detector.
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Create contributor persona analyzer.
+- Goal: Create semantic code churn detector.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
