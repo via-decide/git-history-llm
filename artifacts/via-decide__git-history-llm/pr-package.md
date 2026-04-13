@@ -1,9 +1,9 @@
-Branch: simba/create-git-blame-context-aggregator
-Title: Create git blame context aggregator.
+Branch: simba/create-contributor-persona-analyzer
+Title: Create contributor persona analyzer.
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Create git blame context aggregator.
+- Goal: Create contributor persona analyzer.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
