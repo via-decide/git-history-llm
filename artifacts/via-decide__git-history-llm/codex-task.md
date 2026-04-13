@@ -1,7 +1,7 @@
 You are working in repository via-decide/git-history-llm on branch main.
 
 MISSION
-Create contributor persona analyzer.
+Create semantic code churn detector.
 
 CONSTRAINTS
 Preserve existing code; prefer additive changes.
