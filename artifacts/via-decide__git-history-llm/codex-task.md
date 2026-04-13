@@ -1,7 +1,7 @@
 You are working in repository via-decide/git-history-llm on branch main.
 
 MISSION
-Create commit history summarization benchmark.
+Create intelligent diff chunking utility.
 
 CONSTRAINTS
 Preserve existing code; prefer additive changes.
