@@ -1,7 +1,7 @@
 {
   "repo": "via-decide/git-history-llm",
   "mode": "codex_then_antigravity",
-  "branch": "simba/create-technical-debt-accumulation-analyzer",
+  "branch": "simba/create-semantic-rollback-impact-analyzer",
   "files_to_create": [
     "codex-task.md",
     "antigravity-repair-task.md",

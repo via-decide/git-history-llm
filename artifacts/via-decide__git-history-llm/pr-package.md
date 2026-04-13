@@ -1,9 +1,9 @@
-Branch: simba/create-technical-debt-accumulation-analyzer
-Title: Create technical debt accumulation analyzer.
+Branch: simba/create-semantic-rollback-impact-analyzer
+Title: Create semantic rollback impact analyzer.
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Create technical debt accumulation analyzer.
+- Goal: Create semantic rollback impact analyzer.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
