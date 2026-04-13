@@ -1,9 +1,9 @@
-Branch: simba/create-semantic-code-churn-detector
-Title: Create semantic code churn detector.
+Branch: simba/create-historical-secret-and-vulnerability-scann
+Title: Create historical secret and vulnerability scanner.
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Create semantic code churn detector.
+- Goal: Create historical secret and vulnerability scanner.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
