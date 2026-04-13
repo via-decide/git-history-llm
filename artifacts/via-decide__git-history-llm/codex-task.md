@@ -1,7 +1,7 @@
 You are working in repository via-decide/git-history-llm on branch main.
 
 MISSION
-Create semantic release changelog builder.
+Create logical merge conflict predictor.
 
 CONSTRAINTS
 Preserve existing code; prefer additive changes.
