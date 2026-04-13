@@ -1,9 +1,9 @@
-Branch: simba/create-pr-description-generator-from-feature-bra
-Title: Create PR description generator from feature branch history.
+Branch: simba/create-dependency-evolution-analyzer
+Title: Create dependency evolution analyzer.
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Create PR description generator from feature branch history.
+- Goal: Create dependency evolution analyzer.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
