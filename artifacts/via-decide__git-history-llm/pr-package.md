@@ -1,9 +1,9 @@
-Branch: simba/create-bug-origin-tracing-module
-Title: Create bug origin tracing module.
+Branch: simba/create-git-blame-context-aggregator
+Title: Create git blame context aggregator.
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Create bug origin tracing module.
+- Goal: Create git blame context aggregator.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests

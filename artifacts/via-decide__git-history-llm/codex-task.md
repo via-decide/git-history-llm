@@ -1,7 +1,7 @@
 You are working in repository via-decide/git-history-llm on branch main.
 
 MISSION
-Create bug origin tracing module.
+Create git blame context aggregator.
 
 CONSTRAINTS
 Preserve existing code; prefer additive changes.
