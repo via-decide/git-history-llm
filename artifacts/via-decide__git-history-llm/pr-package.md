@@ -1,9 +1,9 @@
-Branch: simba/create-semantic-rollback-impact-analyzer
-Title: Create semantic rollback impact analyzer.
+Branch: simba/create-historical-code-duplication-tracker
+Title: Create historical code duplication tracker.
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Create semantic rollback impact analyzer.
+- Goal: Create historical code duplication tracker.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
