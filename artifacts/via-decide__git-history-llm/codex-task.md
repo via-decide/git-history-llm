@@ -1,7 +1,7 @@
 You are working in repository via-decide/git-history-llm on branch main.
 
 MISSION
-Create commit message standardizer and rewriter.
+Create domain knowledge mapping tool.
 
 CONSTRAINTS
 Preserve existing code; prefer additive changes.

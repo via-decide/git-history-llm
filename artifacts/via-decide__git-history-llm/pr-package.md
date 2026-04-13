@@ -1,9 +1,9 @@
-Branch: simba/create-commit-message-standardizer-and-rewriter
-Title: Create commit message standardizer and rewriter.
+Branch: simba/create-domain-knowledge-mapping-tool
+Title: Create domain knowledge mapping tool.
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Create commit message standardizer and rewriter.
+- Goal: Create domain knowledge mapping tool.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
