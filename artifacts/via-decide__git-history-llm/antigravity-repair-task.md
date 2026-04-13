@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Create historical PR review pattern extractor.
+Create module history onboarding assistant.
 
 RULES
 1. Audit touched files first and identify regressions.
