@@ -1,9 +1,9 @@
-Branch: simba/create-dependency-evolution-analyzer
-Title: Create dependency evolution analyzer.
+Branch: simba/create-dead-code-origin-tracer
+Title: Create dead code origin tracer.
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Create dependency evolution analyzer.
+- Goal: Create dead code origin tracer.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
