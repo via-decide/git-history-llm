@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Create PR description generator from feature branch history.
+Create dependency evolution analyzer.
 
 RULES
 1. Audit touched files first and identify regressions.
