@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Create intelligent diff chunking utility.
+Create bug origin tracing module.
 
 RULES
 1. Audit touched files first and identify regressions.

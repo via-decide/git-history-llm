@@ -1,7 +1,7 @@
 You are working in repository via-decide/git-history-llm on branch main.
 
 MISSION
-Create intelligent diff chunking utility.
+Create bug origin tracing module.
 
 CONSTRAINTS
 Preserve existing code; prefer additive changes.
