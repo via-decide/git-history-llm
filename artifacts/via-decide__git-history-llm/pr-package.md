@@ -1,9 +1,9 @@
-Branch: simba/create-intelligent-diff-chunking-utility
-Title: Create intelligent diff chunking utility.
+Branch: simba/create-bug-origin-tracing-module
+Title: Create bug origin tracing module.
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Create intelligent diff chunking utility.
+- Goal: Create bug origin tracing module.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
