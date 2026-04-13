@@ -1,9 +1,9 @@
-Branch: simba/create-module-history-onboarding-assistant
-Title: Create module history onboarding assistant.
+Branch: simba/create-historical-pr-review-pattern-extractor
+Title: Create historical PR review pattern extractor.
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Create module history onboarding assistant.
+- Goal: Create historical PR review pattern extractor.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
