@@ -1,7 +1,7 @@
 You are working in repository via-decide/git-history-llm on branch main.
 
 MISSION
-Create git blame context aggregator.
+Create contributor persona analyzer.
 
 CONSTRAINTS
 Preserve existing code; prefer additive changes.
