@@ -1,9 +1,9 @@
-Branch: simba/create-semantic-release-changelog-builder
-Title: Create semantic release changelog builder.
+Branch: simba/create-logical-merge-conflict-predictor
+Title: Create logical merge conflict predictor.
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Create semantic release changelog builder.
+- Goal: Create logical merge conflict predictor.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
