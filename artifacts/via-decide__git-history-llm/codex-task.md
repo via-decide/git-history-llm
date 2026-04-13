@@ -1,7 +1,7 @@
 You are working in repository via-decide/git-history-llm on branch main.
 
 MISSION
-Create PR description generator from feature branch history.
+Create dependency evolution analyzer.
 
 CONSTRAINTS
 Preserve existing code; prefer additive changes.
