@@ -1,7 +1,7 @@
 You are working in repository via-decide/git-history-llm on branch main.
 
 MISSION
-Create logical merge conflict predictor.
+Create PR description generator from feature branch history.
 
 CONSTRAINTS
 Preserve existing code; prefer additive changes.

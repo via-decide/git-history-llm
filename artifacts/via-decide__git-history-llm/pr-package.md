@@ -1,9 +1,9 @@
-Branch: simba/create-logical-merge-conflict-predictor
-Title: Create logical merge conflict predictor.
+Branch: simba/create-pr-description-generator-from-feature-bra
+Title: Create PR description generator from feature branch history.
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Create logical merge conflict predictor.
+- Goal: Create PR description generator from feature branch history.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
