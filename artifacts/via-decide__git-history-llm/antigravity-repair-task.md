@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Create semantic code churn detector.
+Create historical secret and vulnerability scanner.
 
 RULES
 1. Audit touched files first and identify regressions.
