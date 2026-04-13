@@ -1,9 +1,9 @@
-Branch: simba/create-historical-pr-review-pattern-extractor
-Title: Create historical PR review pattern extractor.
+Branch: simba/create-technical-debt-accumulation-analyzer
+Title: Create technical debt accumulation analyzer.
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Create historical PR review pattern extractor.
+- Goal: Create technical debt accumulation analyzer.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
