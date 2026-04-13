@@ -1,9 +1,9 @@
-Branch: simba/create-domain-knowledge-mapping-tool
-Title: Create domain knowledge mapping tool.
+Branch: simba/create-technical-debt-accumulation-analyzer
+Title: Create technical debt accumulation analyzer.
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Create domain knowledge mapping tool.
+- Goal: Create technical debt accumulation analyzer.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
