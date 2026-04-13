@@ -1,7 +1,7 @@
 You are working in repository via-decide/git-history-llm on branch main.
 
 MISSION
-Create dead code origin tracer.
+Create commit message standardizer and rewriter.
 
 CONSTRAINTS
 Preserve existing code; prefer additive changes.

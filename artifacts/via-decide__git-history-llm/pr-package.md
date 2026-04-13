@@ -1,9 +1,9 @@
-Branch: simba/create-dead-code-origin-tracer
-Title: Create dead code origin tracer.
+Branch: simba/create-commit-message-standardizer-and-rewriter
+Title: Create commit message standardizer and rewriter.
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Create dead code origin tracer.
+- Goal: Create commit message standardizer and rewriter.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
