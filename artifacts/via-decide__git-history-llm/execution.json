@@ -1,7 +1,7 @@
 {
   "repo": "via-decide/git-history-llm",
   "mode": "codex_then_antigravity",
-  "branch": "simba/create-pr-description-generator-from-feature-bra",
+  "branch": "simba/create-dependency-evolution-analyzer",
   "files_to_create": [
     "codex-task.md",
     "antigravity-repair-task.md",
