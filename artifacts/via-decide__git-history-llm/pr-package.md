@@ -1,9 +1,9 @@
-Branch: simba/create-historical-secret-and-vulnerability-scann
-Title: Create historical secret and vulnerability scanner.
+Branch: simba/create-semantic-release-changelog-builder
+Title: Create semantic release changelog builder.
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Create historical secret and vulnerability scanner.
+- Goal: Create semantic release changelog builder.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests

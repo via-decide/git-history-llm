@@ -1,7 +1,7 @@
 {
   "repo": "via-decide/git-history-llm",
   "mode": "codex_then_antigravity",
-  "branch": "simba/create-historical-secret-and-vulnerability-scann",
+  "branch": "simba/create-semantic-release-changelog-builder",
   "files_to_create": [
     "codex-task.md",
     "antigravity-repair-task.md",
