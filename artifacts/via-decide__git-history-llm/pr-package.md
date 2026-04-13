@@ -1,9 +1,9 @@
-Branch: simba/create-commit-history-summarization-benchmark
-Title: Create commit history summarization benchmark.
+Branch: simba/create-intelligent-diff-chunking-utility
+Title: Create intelligent diff chunking utility.
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Create commit history summarization benchmark.
+- Goal: Create intelligent diff chunking utility.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
