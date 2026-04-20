@@ -146,3 +146,41 @@ Install dependencies in your environment as needed.
 ## License
 
 MIT — see `LICENSE`.
+
+
+## Visual Repository Explorer
+
+Use the graph workflow to export visualization data and open the interactive browser UI:
+
+```bash
+git-history graph <repo>
+```
+
+Example:
+
+```bash
+git-history graph ./repo
+```
+
+Generated artifacts:
+
+- `output/graph.json` — node/edge graph for commits, files, authors, modules.
+- `output/insights.json` — reasoning payload for Zayvora.
+
+UI capabilities (`ui/index.html`):
+
+- interactive D3 force graph
+- zoom and pan
+- node hover details
+- click-to-highlight connected nodes
+- timeline slider to filter visible commits by recency
+- node detail panel for commit/file/author/module context
+
+Type colors:
+
+- commit: blue
+- file: green
+- author: orange
+- module: purple
+
+![Visual Repository Explorer Screenshot](docs/visual-explorer-screenshot.svg)
