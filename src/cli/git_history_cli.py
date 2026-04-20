@@ -4,9 +4,11 @@ from __future__ import annotations
 
 import argparse
 import json
+import webbrowser
 from pathlib import Path
 
 from src.commit_analyzer.change_graph import ChangeGraphBuilder
+from src.commit_analyzer.graph_export import export_graph
 from src.commit_analyzer.timeline import TimelineBuilder
 from src.git_loader.repo_loader import GitRepoLoader
 from src.history_parser.commit_parser import CommitParser
@@ -64,12 +66,40 @@ def build_parser() -> argparse.ArgumentParser:
         cmd.add_argument("--limit", type=int, default=None, help="Optional commit limit")
         cmd.add_argument("--json", action="store_true", help="Emit machine-readable JSON output")
 
+    graph_cmd = sub.add_parser("graph")
+    graph_cmd.add_argument("repo", help="Path to git repository")
+    graph_cmd.add_argument("--output-dir", default="output", help="Where graph.json and insights.json are written")
+    graph_cmd.add_argument(
+        "--ui-path",
+        default="ui/index.html",
+        help="Path to graph UI entrypoint (opened after graph export)",
+    )
+    graph_cmd.add_argument("--json", action="store_true", help="Emit machine-readable JSON output")
+
     return parser
 
 
 def main() -> None:
     parser = build_parser()
     args = parser.parse_args()
+
+    if args.command == "graph":
+        export_result = export_graph(args.repo, output_dir=args.output_dir)
+        ui_file = Path(args.ui_path).resolve()
+        ui_url = ui_file.as_uri()
+        webbrowser.open(ui_url)
+
+        payload = {
+            "repo": str(Path(args.repo).resolve()),
+            "graph_path": export_result["graph_path"],
+            "insights_path": export_result["insights_path"],
+            "ui": ui_url,
+        }
+        if args.json:
+            print(json.dumps(payload, indent=2))
+        else:
+            print(json.dumps(payload, indent=2))
+        return
 
     report = analyze_repository(args.repo, limit=args.limit)
 

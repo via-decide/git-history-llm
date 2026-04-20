@@ -1,0 +1,84 @@
+:root {
+  color-scheme: dark;
+  --bg: #0f172a;
+  --panel: #111827;
+  --text: #f3f4f6;
+  --muted: #94a3b8;
+  --edge: #334155;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+header,
+.controls {
+  padding: 12px 20px;
+  background: var(--panel);
+  border-bottom: 1px solid #1f2937;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  height: calc(100vh - 140px);
+}
+
+#graph-panel {
+  overflow: hidden;
+}
+
+#graph {
+  width: 100%;
+  height: 100%;
+}
+
+#detail-panel {
+  border-left: 1px solid #1f2937;
+  background: #0b1220;
+  padding: 16px;
+  overflow-y: auto;
+}
+
+#detail-content {
+  font-size: 14px;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.node {
+  stroke: #0b1020;
+  stroke-width: 1.5;
+}
+
+.node.highlight {
+  stroke: #ffffff;
+  stroke-width: 2.5;
+}
+
+.edge {
+  stroke: var(--edge);
+  stroke-opacity: 0.6;
+}
+
+.tooltip {
+  position: absolute;
+  pointer-events: none;
+  background: #020617;
+  border: 1px solid #334155;
+  border-radius: 6px;
+  padding: 6px 10px;
+  color: #e2e8f0;
+  font-size: 12px;
+}
+
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+  font-size: 12px;
+}
