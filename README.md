@@ -1,107 +1,148 @@
 # Git History LLM
 
-**Turn your Git history into engineering intelligence.**
+**Repository history reasoning for developer intelligence and Zayvora pipelines.**
 
-A local-first Python system that extracts engineering reasoning from git commit history.
+Git History LLM now goes beyond commit summarization. It analyzes commit metadata, categorizes work patterns, builds change graphs, and generates structured insights/JSON outputs suitable for machine reasoning systems.
 
-> **Understand your codebase history instead of depending on AI autocomplete.**
+## Purpose
 
-## 1) Concept
-Git History LLM analyzes commit streams to infer decision-making patterns, architecture evolution, and team development style. It transforms raw commit metadata into practical reasoning artifacts developers can review, diff, and version.
+Use git history as a reasoning signal to answer questions such as:
 
-## 2) Why this exists
-- Teams lose context as repositories evolve.
-- PR descriptions are often incomplete or inconsistent.
-- Cloud-only AI coding tools can obscure provenance and lock teams into proprietary workflows.
+- Which modules are unstable?
+- Where does code churn concentrate?
+- Which contributors repeatedly touch the same hotspots?
+- Are refactor cycles emerging in specific parts of the repo?
 
-This project keeps analysis local, transparent, and forkable.
-
-## 3) How it works
-Pipeline:
+## Architecture
 
 ```text
-git repo
-  ↓
-git_parser
-  ↓
-commit_loader
-  ↓
-decision_extractor
-  ↓
-architecture_timeline
-  ↓
-developer_pattern_model
+src/
+  git_loader/
+    repo_loader.py        # repository + commit metadata extraction
+  history_parser/
+    commit_parser.py      # commit categorization + pattern detection
+  commit_analyzer/
+    change_graph.py       # developer/file/module graph via networkx
+    timeline.py           # commit-frequency, major changes, release phases
+  insight_engine/
+    insights.py           # risk, churn, hotspots, refactor-cycle insights
+  cli/
+    git_history_cli.py    # unified CLI for analyze/insights/timeline/contributors
 ```
 
-Core modules:
-- `engine/git_parser.py`
-- `engine/commit_loader.py`
-- `analysis/decision_extractor.py`
-- `analysis/architecture_timeline.py`
-- `analysis/dev_pattern_analyzer.py`
-- `cli/git_history_llm.py`
+## Key Features
 
-## 4) Installation
-Requirements:
-- Python 3.10+
-- Git installed and available on PATH
+### 1) Git Data Loader
+- Loads any git repository path.
+- Streams commit history using `GitPython` (`iter_commits`) to avoid loading everything at once.
+- Extracts metadata:
+  - `commit_id`
+  - `author`
+  - `timestamp`
+  - `files_changed`
+  - `lines_added`
+  - `lines_removed`
+  - `commit_message`
+- Tracks branch structure (`branch -> head commit`).
 
-Run locally:
+### 2) Commit Parsing
+- Categorizes commits into:
+  - `feature`
+  - `bugfix`
+  - `refactor`
+  - `docs`
+  - `infra`
+- Detects commit patterns such as `fix:`, `feat:`, and `refactor:`.
 
-```bash
-git clone https://github.com/via-decide/git-history-llm.git
-cd git-history-llm
-python3 -m cli.git_history_llm --help
-```
+### 3) Change Graph (networkx)
+- Builds relationships:
+  - `developer -> file`
+  - `file -> module`
+  - `module -> commit frequency`
 
-## 5) Usage
-Analyze and generate all outputs:
+### 4) Insight Engine
+Generates insights including:
+- most active files
+- unstable modules
+- high churn code
+- contributor hotspots
+- refactor cycles
 
-```bash
-python3 -m cli.git_history_llm analyze .
-```
-
-Other commands:
-
-```bash
-python3 -m cli.git_history_llm timeline <repo>
-python3 -m cli.git_history_llm decisions <repo>
-python3 -m cli.git_history_llm profile <repo>
-```
-
-## 6) Architecture
-The system is split into small modules:
-- **Engine layer** for Git extraction and normalized commit batches.
-- **Analysis layer** for decisions, architecture timeline, and developer behavior heuristics.
-- **CLI layer** for command routing and output generation.
-- **Docs layer** to keep project intent and extension guidelines clear.
-
-See `docs/ARCHITECTURE.md` for full details.
-
-## 7) Outputs
-The `analyze` command produces:
-- `repo_architecture.md`
-- `decision_history.md`
-- `developer_profile.json`
-- `system_evolution.md`
-
-## 8) Example results
+Example insight:
 
 ```json
 {
-  "architecture_changes": 12,
-  "refactors": 31,
-  "feature_bursts": 6,
-  "dev_style": "modular architecture"
+  "module": "zayvora/runtime",
+  "risk": "high",
+  "reason": "frequent changes across multiple commits"
 }
 ```
 
-## 9) Roadmap
-See `docs/ROADMAP.md` for near-term milestones, including smarter temporal clustering, richer reasoning classifiers, and optional local visualization support.
+### 5) Timeline View
+Produces timeline signals for:
+- commit frequency
+- major changes (large churn)
+- release-phase commits
 
-## 10) License
+## CLI Usage
+
+Run via module:
+
+```bash
+python3 -m src.cli.git_history_cli analyze <repo> --json
+```
+
+Commands:
+
+```bash
+git-history analyze <repo>
+git-history insights <repo>
+git-history timeline <repo>
+git-history contributors <repo>
+```
+
+Current Python-module equivalents:
+
+```bash
+python3 -m src.cli.git_history_cli analyze <repo>
+python3 -m src.cli.git_history_cli insights <repo>
+python3 -m src.cli.git_history_cli timeline <repo>
+python3 -m src.cli.git_history_cli contributors <repo>
+```
+
+All commands support:
+- `--limit N` (optional commit cap)
+- `--json` (structured export)
+
+## Zayvora Integration JSON
+
+`--json` emits a reasoning-friendly payload with this shape:
+
+```json
+{
+  "repo": "",
+  "commits": [],
+  "insights": [],
+  "contributors": [],
+  "modules": []
+}
+```
+
+This enables downstream systems (like Zayvora) to reason over repository evolution programmatically.
+
+## Dependencies
+
+- Python 3.10+
+- Git installed and available in PATH
+- `gitpython`
+- `networkx`
+
+Install dependencies in your environment as needed.
+
+## Backward Compatibility
+
+`python3 -m cli.git_history_llm ...` is retained as a compatibility entrypoint and delegates to the new CLI implementation.
+
+## License
+
 MIT — see `LICENSE`.
-
----
-
-Fork it, run it locally, and adapt it to your own engineering workflows without cloud dependencies.
