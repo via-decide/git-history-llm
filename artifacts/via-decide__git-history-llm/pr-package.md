@@ -1,9 +1,9 @@
-Branch: simba/add-semantic-deduplication-and-caching-to-elimin
-Title: Add semantic deduplication and caching to eliminate redundant LLM pro...
+Branch: simba/add-rate-limiting-and-token-budget-enforcement-t
+Title: Add rate limiting and token budget enforcement to control LLM usage, ...
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Add semantic deduplication and caching to eliminate redundant LLM processing for identical or similar commits.
+- Goal: Add rate limiting and token budget enforcement to control LLM usage, prevent cost overruns, and stabilize processing under scale.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
