@@ -1,9 +1,9 @@
-Branch: simba/add-execution-modes-and-feature-flag-system-to-c
-Title: Add execution modes and feature flag system to control behavior, enab...
+Branch: simba/add-feedback-loop-and-performance-scoring-system
+Title: Add feedback loop and performance scoring system to continuously eval...
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Add execution modes and feature flag system to control behavior, enable safe rollouts, and prevent system-wide failures during changes.
+- Goal: Add feedback loop and performance scoring system to continuously evaluate system quality and detect degradation trends over time.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
