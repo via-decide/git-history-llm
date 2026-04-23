@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Create module history onboarding assistant.
+Convert git-history-llm from manual prompt-based summarization into a deterministic, automated commit intelligence pipeline.
 
 RULES
 1. Audit touched files first and identify regressions.
@@ -20,7 +20,7 @@ SOP: REPAIR PROTOCOL (MANDATORY)
 
 REPO CONTEXT
 - README snippet:
-# Git History LLM **Turn your Git history into engineering intelligence.** A local-first Python system that extracts engineering reasoning from git commit history. > **Understand your codebase history instead of depending on AI autocomplete.** ## 1) Concept Git History LLM analyzes commit stream
+# Git History LLM **Repository history reasoning for developer intelligence and Zayvora pipelines.** Git History LLM now goes beyond commit summarization. It analyzes commit metadata, categorizes work patterns, builds change graphs, and generates structured insights/JSON outputs suitable for machi
 - AGENTS snippet:
 not found
 - package.json snippet:
