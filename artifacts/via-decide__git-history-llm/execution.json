@@ -1,17 +1,17 @@
 {
   "repo": "via-decide/git-history-llm",
   "mode": "codex_then_antigravity",
-  "branch": "simba/add-centralized-configuration-validation-and-run",
+  "branch": "simba/add-invariant-enforcement-and-runtime-assertions",
   "files_to_create": [
     "codex-task.md",
     "antigravity-repair-task.md",
     "pr-package.md",
     "execution.json",
-    "core/config.js"
+    "core/invariants.js"
   ],
   "files_to_modify": [],
   "codex_prompt_path": "codex-task.md",
   "repair_prompt_path": "antigravity-repair-task.md",
-  "synthesized_file": "core/config.js",
-  "synthesized_size": 15405
+  "synthesized_file": "core/invariants.js",
+  "synthesized_size": 18436
 }

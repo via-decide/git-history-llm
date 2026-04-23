@@ -1,10 +1,10 @@
 You are working in repository via-decide/git-history-llm on branch main.
 
 MISSION
-Add centralized configuration validation and runtime guardrails to prevent invalid system states and misconfiguration failures.
+Add invariant enforcement and runtime assertions to guarantee correctness and detect any internal logic violations immediately.
 
 CONSTRAINTS
-- Max 1 new file - No external dependencies - Validation overhead <5ms - Must not conflict with existing modules
+- Max 1 new file - No external dependencies - Assertion overhead <5% - Must integrate with existing monitor system
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
