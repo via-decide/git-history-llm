@@ -1,10 +1,10 @@
 You are working in repository via-decide/git-history-llm on branch main.
 
 MISSION
-Add authentication and authorization layer to secure control plane access and restrict visibility based on roles.
+Add tamper-evident audit logging for all control-plane and authentication events using hash chaining.
 
 CONSTRAINTS
-- Max 1 new file - No external dependencies - Auth check latency <5ms - Must not affect pipeline execution
+- Max 1 new file (modifications allowed) - No external dependencies - Logging overhead <5ms per event - Must not expose raw API keys (hash only)
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
