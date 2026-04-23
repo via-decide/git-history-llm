@@ -1,10 +1,10 @@
 You are working in repository via-decide/git-history-llm on branch main.
 
 MISSION
-Add end-to-end integrity verification using hash chaining to detect corruption and guarantee trust in all processed outputs.
+Add time-travel debugging and execution trace snapshots to enable full forensic analysis and step-by-step replay of pipeline behavior.
 
 CONSTRAINTS
-- Max 1 new file - No external dependencies - Hash computation lightweight (<2ms per commit) - Must integrate with checkpoint and cache layers
+- Max 1 new file - No external dependencies - Snapshot overhead <15% - Must not affect normal execution flow
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
