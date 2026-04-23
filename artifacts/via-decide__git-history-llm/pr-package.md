@@ -1,9 +1,9 @@
-Branch: simba/add-invariant-enforcement-and-runtime-assertions
-Title: Add invariant enforcement and runtime assertions to guarantee correct...
+Branch: simba/add-checkpointing-and-resumable-execution-to-ens
+Title: Add checkpointing and resumable execution to ensure zero progress los...
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Add invariant enforcement and runtime assertions to guarantee correctness and detect any internal logic violations immediately.
+- Goal: Add checkpointing and resumable execution to ensure zero progress loss and reliable recovery from interruptions or crashes.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
