@@ -1,10 +1,10 @@
 You are working in repository via-decide/git-history-llm on branch main.
 
 MISSION
-Add versioned execution contracts and compatibility enforcement to prevent breaking changes and ensure safe system evolution.
+Add centralized configuration validation and runtime guardrails to prevent invalid system states and misconfiguration failures.
 
 CONSTRAINTS
-- Max 1 new file - No external dependencies - Migration must be lightweight (<10ms per record) - Must not break determinism or caching logic
+- Max 1 new file - No external dependencies - Validation overhead <5ms - Must not conflict with existing modules
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
