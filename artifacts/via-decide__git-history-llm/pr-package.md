@@ -1,9 +1,9 @@
-Branch: simba/add-environment-fingerprinting-and-execution-sea
-Title: Add environment fingerprinting and execution sealing to detect enviro...
+Branch: simba/add-policy-enforcement-layer-to-restrict-inputs-
+Title: Add policy enforcement layer to restrict inputs and outputs, ensuring...
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Add environment fingerprinting and execution sealing to detect environment drift and guarantee reproducible execution across systems.
+- Goal: Add policy enforcement layer to restrict inputs and outputs, ensuring controlled and safe system behavior under defined rules.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
