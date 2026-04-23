@@ -1,10 +1,10 @@
 You are working in repository via-decide/git-history-llm on branch main.
 
 MISSION
-Add execution modes and feature flag system to control behavior, enable safe rollouts, and prevent system-wide failures during changes.
+Add feedback loop and performance scoring system to continuously evaluate system quality and detect degradation trends over time.
 
 CONSTRAINTS
-- Max 1 new file - No external dependencies - Mode switching overhead <5ms - Must integrate with config and policy layers
+- Max 1 new file - No external dependencies - Computation overhead <5ms - Must not interfere with execution flow
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
