@@ -1,9 +1,9 @@
-Branch: simba/add-stabilization-controller-with-hysteresis-and
-Title: Add stabilization controller with hysteresis and cooldown to prevent ...
+Branch: simba/add-read-only-control-plane-interface-for-system
+Title: Add read-only control plane interface for system introspection, enabl...
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Add stabilization controller with hysteresis and cooldown to prevent oscillations and ensure controlled adaptive behavior.
+- Goal: Add read-only control plane interface for system introspection, enabling external visibility without risking core execution integrity.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
