@@ -1,10 +1,10 @@
 You are working in repository via-decide/git-history-llm on branch main.
 
 MISSION
-Convert git-history-llm from manual prompt-based summarization into a deterministic, automated commit intelligence pipeline.
+Enforce deterministic LLM output by adding input normalization, output canonicalization, and double-run consistency verification.
 
 CONSTRAINTS
-- Max 2 new files only - No manual copy-paste anywhere in flow - No external dependencies beyond existing stack - Must handle large commit histories (>1000 commits)
+- Max 1 new file - No external dependencies - Additional latency <30% - Must not break existing schema validation
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.

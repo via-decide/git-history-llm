@@ -1,9 +1,9 @@
-Branch: simba/convert-git-history-llm-from-manual-prompt-based
-Title: Convert git-history-llm from manual prompt-based summarization into a...
+Branch: simba/enforce-deterministic-llm-output-by-adding-input
+Title: Enforce deterministic LLM output by adding input normalization, outpu...
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Convert git-history-llm from manual prompt-based summarization into a deterministic, automated commit intelligence pipeline.
+- Goal: Enforce deterministic LLM output by adding input normalization, output canonicalization, and double-run consistency verification.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
