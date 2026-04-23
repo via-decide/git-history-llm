@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Add rate limiting and token budget enforcement to control LLM usage, prevent cost overruns, and stabilize processing under scale.
+Add multi-level fallback and degraded execution mode to ensure the system produces usable summaries even when LLM fails.
 
 RULES
 1. Audit touched files first and identify regressions.
