@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Add read-only control plane interface for system introspection, enabling external visibility without risking core execution integrity.
+Add authentication and authorization layer to secure control plane access and restrict visibility based on roles.
 
 RULES
 1. Audit touched files first and identify regressions.

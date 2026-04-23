@@ -1,9 +1,9 @@
-Branch: simba/add-read-only-control-plane-interface-for-system
-Title: Add read-only control plane interface for system introspection, enabl...
+Branch: simba/add-authentication-and-authorization-layer-to-se
+Title: Add authentication and authorization layer to secure control plane ac...
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Add read-only control plane interface for system introspection, enabling external visibility without risking core execution integrity.
+- Goal: Add authentication and authorization layer to secure control plane access and restrict visibility based on roles.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests

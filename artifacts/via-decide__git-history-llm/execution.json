@@ -1,17 +1,17 @@
 {
   "repo": "via-decide/git-history-llm",
   "mode": "codex_then_antigravity",
-  "branch": "simba/add-read-only-control-plane-interface-for-system",
+  "branch": "simba/add-authentication-and-authorization-layer-to-se",
   "files_to_create": [
     "codex-task.md",
     "antigravity-repair-task.md",
     "pr-package.md",
     "execution.json",
-    "core/control-plane.js"
+    "core/auth.js"
   ],
   "files_to_modify": [],
   "codex_prompt_path": "codex-task.md",
   "repair_prompt_path": "antigravity-repair-task.md",
-  "synthesized_file": "core/control-plane.js",
-  "synthesized_size": 16533
+  "synthesized_file": "core/auth.js",
+  "synthesized_size": 20809
 }
