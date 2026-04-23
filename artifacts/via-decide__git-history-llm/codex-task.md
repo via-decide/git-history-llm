@@ -1,10 +1,10 @@
 You are working in repository via-decide/git-history-llm on branch main.
 
 MISSION
-Enforce deterministic LLM output by adding input normalization, output canonicalization, and double-run consistency verification.
+Add confidence scoring and gating to ensure only high-quality, reliable summaries are accepted and stored.
 
 CONSTRAINTS
-- Max 1 new file - No external dependencies - Additional latency <30% - Must not break existing schema validation
+- Max 1 new file - No external dependencies - Scoring must be lightweight (string + heuristic based) - Must not conflict with determinism checks
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
@@ -17,7 +17,7 @@ PROCESS (MANDATORY)
 
 REPO AUDIT CONTEXT
 - Description: 
-- Primary language: Python
+- Primary language: JavaScript
 - README snippet:
 # Git History LLM **Repository history reasoning for developer intelligence and Zayvora pipelines.** Git History LLM now goes beyond commit summarization. It analyzes commit metadata, categorizes work patterns, builds change graphs, and generates structured insights/JSON outputs suitable for machi
 
