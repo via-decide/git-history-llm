@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Add adaptive control system to dynamically adjust execution parameters based on performance feedback and prevent sustained degradation.
+Add stabilization controller with hysteresis and cooldown to prevent oscillations and ensure controlled adaptive behavior.
 
 RULES
 1. Audit touched files first and identify regressions.
