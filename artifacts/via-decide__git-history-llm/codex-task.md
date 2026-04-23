@@ -1,10 +1,10 @@
 You are working in repository via-decide/git-history-llm on branch main.
 
 MISSION
-Add stabilization controller with hysteresis and cooldown to prevent oscillations and ensure controlled adaptive behavior.
+Add read-only control plane interface for system introspection, enabling external visibility without risking core execution integrity.
 
 CONSTRAINTS
-- Max 1 new file (modify allowed) - No external dependencies - Stability checks overhead <5ms - Must not conflict with adaptive logic
+- Max 1 new file - No external dependencies - Query latency <10ms - Must not impact execution performance
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
