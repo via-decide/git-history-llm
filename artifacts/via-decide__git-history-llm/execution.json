@@ -1,17 +1,17 @@
 {
   "repo": "via-decide/git-history-llm",
   "mode": "codex_then_antigravity",
-  "branch": "simba/add-time-travel-debugging-and-execution-trace-sn",
+  "branch": "simba/add-environment-fingerprinting-and-execution-sea",
   "files_to_create": [
     "codex-task.md",
     "antigravity-repair-task.md",
     "pr-package.md",
     "execution.json",
-    "core/trace.js"
+    "core/environment.js"
   ],
   "files_to_modify": [],
   "codex_prompt_path": "codex-task.md",
   "repair_prompt_path": "antigravity-repair-task.md",
-  "synthesized_file": "core/trace.js",
-  "synthesized_size": 22429
+  "synthesized_file": "core/environment.js",
+  "synthesized_size": 16372
 }

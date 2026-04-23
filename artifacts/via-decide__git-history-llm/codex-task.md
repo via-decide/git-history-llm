@@ -1,10 +1,10 @@
 You are working in repository via-decide/git-history-llm on branch main.
 
 MISSION
-Add time-travel debugging and execution trace snapshots to enable full forensic analysis and step-by-step replay of pipeline behavior.
+Add environment fingerprinting and execution sealing to detect environment drift and guarantee reproducible execution across systems.
 
 CONSTRAINTS
-- Max 1 new file - No external dependencies - Snapshot overhead <15% - Must not affect normal execution flow
+- Max 1 new file - No external dependencies - Fingerprint generation <5ms - Must integrate with integrity and versioning layers
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.

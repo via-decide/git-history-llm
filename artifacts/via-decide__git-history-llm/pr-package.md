@@ -1,9 +1,9 @@
-Branch: simba/add-time-travel-debugging-and-execution-trace-sn
-Title: Add time-travel debugging and execution trace snapshots to enable ful...
+Branch: simba/add-environment-fingerprinting-and-execution-sea
+Title: Add environment fingerprinting and execution sealing to detect enviro...
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Add time-travel debugging and execution trace snapshots to enable full forensic analysis and step-by-step replay of pipeline behavior.
+- Goal: Add environment fingerprinting and execution sealing to detect environment drift and guarantee reproducible execution across systems.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests

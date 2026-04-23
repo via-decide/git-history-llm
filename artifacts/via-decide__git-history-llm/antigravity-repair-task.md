@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Add time-travel debugging and execution trace snapshots to enable full forensic analysis and step-by-step replay of pipeline behavior.
+Add environment fingerprinting and execution sealing to detect environment drift and guarantee reproducible execution across systems.
 
 RULES
 1. Audit touched files first and identify regressions.
