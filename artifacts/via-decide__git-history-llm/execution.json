@@ -1,17 +1,17 @@
 {
   "repo": "via-decide/git-history-llm",
   "mode": "codex_then_antigravity",
-  "branch": "simba/add-policy-enforcement-layer-to-restrict-inputs-",
+  "branch": "simba/add-execution-modes-and-feature-flag-system-to-c",
   "files_to_create": [
     "codex-task.md",
     "antigravity-repair-task.md",
     "pr-package.md",
     "execution.json",
-    "core/policy.js"
+    "core/mode.js"
   ],
   "files_to_modify": [],
   "codex_prompt_path": "codex-task.md",
   "repair_prompt_path": "antigravity-repair-task.md",
-  "synthesized_file": "core/policy.js",
-  "synthesized_size": 20595
+  "synthesized_file": "core/mode.js",
+  "synthesized_size": 17629
 }
