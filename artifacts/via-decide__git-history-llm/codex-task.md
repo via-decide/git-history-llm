@@ -1,10 +1,10 @@
 You are working in repository via-decide/git-history-llm on branch main.
 
 MISSION
-Add policy enforcement layer to restrict inputs and outputs, ensuring controlled and safe system behavior under defined rules.
+Add execution modes and feature flag system to control behavior, enable safe rollouts, and prevent system-wide failures during changes.
 
 CONSTRAINTS
-- Max 1 new file - No external dependencies - Policy checks <5ms - Must not conflict with validation or scoring logic
+- Max 1 new file - No external dependencies - Mode switching overhead <5ms - Must integrate with config and policy layers
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.

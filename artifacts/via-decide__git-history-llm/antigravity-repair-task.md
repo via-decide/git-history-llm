@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Add policy enforcement layer to restrict inputs and outputs, ensuring controlled and safe system behavior under defined rules.
+Add execution modes and feature flag system to control behavior, enable safe rollouts, and prevent system-wide failures during changes.
 
 RULES
 1. Audit touched files first and identify regressions.
