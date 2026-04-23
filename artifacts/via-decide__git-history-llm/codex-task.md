@@ -1,10 +1,10 @@
 You are working in repository via-decide/git-history-llm on branch main.
 
 MISSION
-Add environment fingerprinting and execution sealing to detect environment drift and guarantee reproducible execution across systems.
+Add policy enforcement layer to restrict inputs and outputs, ensuring controlled and safe system behavior under defined rules.
 
 CONSTRAINTS
-- Max 1 new file - No external dependencies - Fingerprint generation <5ms - Must integrate with integrity and versioning layers
+- Max 1 new file - No external dependencies - Policy checks <5ms - Must not conflict with validation or scoring logic
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
