@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Add end-to-end integrity verification using hash chaining to detect corruption and guarantee trust in all processed outputs.
+Add time-travel debugging and execution trace snapshots to enable full forensic analysis and step-by-step replay of pipeline behavior.
 
 RULES
 1. Audit touched files first and identify regressions.
