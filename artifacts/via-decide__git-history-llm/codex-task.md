@@ -1,10 +1,10 @@
 You are working in repository via-decide/git-history-llm on branch main.
 
 MISSION
-Add feedback loop and performance scoring system to continuously evaluate system quality and detect degradation trends over time.
+Add adaptive control system to dynamically adjust execution parameters based on performance feedback and prevent sustained degradation.
 
 CONSTRAINTS
-- Max 1 new file - No external dependencies - Computation overhead <5ms - Must not interfere with execution flow
+- Max 1 new file - No external dependencies - Adaptation overhead <5ms - Must integrate with config and mode systems
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
