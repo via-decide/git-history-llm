@@ -1,9 +1,9 @@
-Branch: simba/add-policy-enforcement-layer-to-restrict-inputs-
-Title: Add policy enforcement layer to restrict inputs and outputs, ensuring...
+Branch: simba/add-execution-modes-and-feature-flag-system-to-c
+Title: Add execution modes and feature flag system to control behavior, enab...
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Add policy enforcement layer to restrict inputs and outputs, ensuring controlled and safe system behavior under defined rules.
+- Goal: Add execution modes and feature flag system to control behavior, enable safe rollouts, and prevent system-wide failures during changes.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
