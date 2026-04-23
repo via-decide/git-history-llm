@@ -1,10 +1,10 @@
 You are working in repository via-decide/git-history-llm on branch main.
 
 MISSION
-Add invariant enforcement and runtime assertions to guarantee correctness and detect any internal logic violations immediately.
+Add checkpointing and resumable execution to ensure zero progress loss and reliable recovery from interruptions or crashes.
 
 CONSTRAINTS
-- Max 1 new file - No external dependencies - Assertion overhead <5% - Must integrate with existing monitor system
+- Max 1 new file - No external dependencies - Checkpoint storage lightweight (file or memory snapshot) - Write overhead <10ms
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
