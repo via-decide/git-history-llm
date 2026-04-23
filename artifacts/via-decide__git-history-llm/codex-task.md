@@ -1,10 +1,10 @@
 You are working in repository via-decide/git-history-llm on branch main.
 
 MISSION
-Add rate limiting and token budget enforcement to control LLM usage, prevent cost overruns, and stabilize processing under scale.
+Add multi-level fallback and degraded execution mode to ensure the system produces usable summaries even when LLM fails.
 
 CONSTRAINTS
-- Max 1 new file - No external dependencies - Overhead <10% - Must not break determinism, scoring, or caching layers
+- Max 1 new file - No external dependencies - Fallback must execute <50ms - Must remain compatible with determinism and scoring layers
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
