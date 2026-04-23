@@ -1,17 +1,17 @@
 {
   "repo": "via-decide/git-history-llm",
   "mode": "codex_then_antigravity",
-  "branch": "simba/convert-git-history-llm-from-manual-prompt-based",
+  "branch": "simba/enforce-deterministic-llm-output-by-adding-input",
   "files_to_create": [
     "codex-task.md",
     "antigravity-repair-task.md",
     "pr-package.md",
     "execution.json",
-    "core/pipeline.js core/schema.js"
+    "core/determinism.js"
   ],
   "files_to_modify": [],
   "codex_prompt_path": "codex-task.md",
   "repair_prompt_path": "antigravity-repair-task.md",
-  "synthesized_file": "core/pipeline.js core/schema.js",
-  "synthesized_size": 20647
+  "synthesized_file": "core/determinism.js",
+  "synthesized_size": 19268
 }
