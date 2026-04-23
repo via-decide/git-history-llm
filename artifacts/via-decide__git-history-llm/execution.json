@@ -1,14 +1,17 @@
 {
   "repo": "via-decide/git-history-llm",
   "mode": "codex_then_antigravity",
-  "branch": "simba/create-module-history-onboarding-assistant",
+  "branch": "simba/convert-git-history-llm-from-manual-prompt-based",
   "files_to_create": [
     "codex-task.md",
     "antigravity-repair-task.md",
     "pr-package.md",
-    "execution.json"
+    "execution.json",
+    "core/pipeline.js core/schema.js"
   ],
   "files_to_modify": [],
   "codex_prompt_path": "codex-task.md",
-  "repair_prompt_path": "antigravity-repair-task.md"
+  "repair_prompt_path": "antigravity-repair-task.md",
+  "synthesized_file": "core/pipeline.js core/schema.js",
+  "synthesized_size": 20647
 }

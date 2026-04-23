@@ -1,9 +1,9 @@
-Branch: simba/create-module-history-onboarding-assistant
-Title: Create module history onboarding assistant.
+Branch: simba/convert-git-history-llm-from-manual-prompt-based
+Title: Convert git-history-llm from manual prompt-based summarization into a...
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Create module history onboarding assistant.
+- Goal: Convert git-history-llm from manual prompt-based summarization into a deterministic, automated commit intelligence pipeline.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests

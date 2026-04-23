@@ -1,10 +1,10 @@
 You are working in repository via-decide/git-history-llm on branch main.
 
 MISSION
-Create module history onboarding assistant.
+Convert git-history-llm from manual prompt-based summarization into a deterministic, automated commit intelligence pipeline.
 
 CONSTRAINTS
-Preserve existing code; prefer additive changes.
+- Max 2 new files only - No manual copy-paste anywhere in flow - No external dependencies beyond existing stack - Must handle large commit histories (>1000 commits)
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
@@ -19,7 +19,7 @@ REPO AUDIT CONTEXT
 - Description: 
 - Primary language: Python
 - README snippet:
-# Git History LLM **Turn your Git history into engineering intelligence.** A local-first Python system that extracts engineering reasoning from git commit history. > **Understand your codebase history instead of depending on AI autocomplete.** ## 1) Concept Git History LLM analyzes commit stream
+# Git History LLM **Repository history reasoning for developer intelligence and Zayvora pipelines.** Git History LLM now goes beyond commit summarization. It analyzes commit metadata, categorizes work patterns, builds change graphs, and generates structured insights/JSON outputs suitable for machi
 
 - AGENTS snippet:
 not found
