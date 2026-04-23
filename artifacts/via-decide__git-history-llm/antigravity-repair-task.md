@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Convert git-history-llm from manual prompt-based summarization into a deterministic, automated commit intelligence pipeline.
+Enforce deterministic LLM output by adding input normalization, output canonicalization, and double-run consistency verification.
 
 RULES
 1. Audit touched files first and identify regressions.
