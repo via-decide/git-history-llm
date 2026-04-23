@@ -1,9 +1,9 @@
-Branch: simba/add-adaptive-control-system-to-dynamically-adjus
-Title: Add adaptive control system to dynamically adjust execution parameter...
+Branch: simba/add-stabilization-controller-with-hysteresis-and
+Title: Add stabilization controller with hysteresis and cooldown to prevent ...
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Add adaptive control system to dynamically adjust execution parameters based on performance feedback and prevent sustained degradation.
+- Goal: Add stabilization controller with hysteresis and cooldown to prevent oscillations and ensure controlled adaptive behavior.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
