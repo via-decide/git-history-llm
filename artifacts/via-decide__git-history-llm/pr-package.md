@@ -1,9 +1,9 @@
-Branch: simba/add-confidence-scoring-and-gating-to-ensure-only
-Title: Add confidence scoring and gating to ensure only high-quality, reliab...
+Branch: simba/add-semantic-deduplication-and-caching-to-elimin
+Title: Add semantic deduplication and caching to eliminate redundant LLM pro...
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Add confidence scoring and gating to ensure only high-quality, reliable summaries are accepted and stored.
+- Goal: Add semantic deduplication and caching to eliminate redundant LLM processing for identical or similar commits.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
