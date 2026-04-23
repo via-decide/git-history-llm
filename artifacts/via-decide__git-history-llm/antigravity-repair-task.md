@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Add multi-level fallback and degraded execution mode to ensure the system produces usable summaries even when LLM fails.
+Add versioned execution contracts and compatibility enforcement to prevent breaking changes and ensure safe system evolution.
 
 RULES
 1. Audit touched files first and identify regressions.

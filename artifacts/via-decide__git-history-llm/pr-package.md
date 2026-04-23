@@ -1,9 +1,9 @@
-Branch: simba/add-multi-level-fallback-and-degraded-execution-
-Title: Add multi-level fallback and degraded execution mode to ensure the sy...
+Branch: simba/add-versioned-execution-contracts-and-compatibil
+Title: Add versioned execution contracts and compatibility enforcement to pr...
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Add multi-level fallback and degraded execution mode to ensure the system produces usable summaries even when LLM fails.
+- Goal: Add versioned execution contracts and compatibility enforcement to prevent breaking changes and ensure safe system evolution.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
