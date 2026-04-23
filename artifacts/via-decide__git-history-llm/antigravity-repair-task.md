@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Add feedback loop and performance scoring system to continuously evaluate system quality and detect degradation trends over time.
+Add adaptive control system to dynamically adjust execution parameters based on performance feedback and prevent sustained degradation.
 
 RULES
 1. Audit touched files first and identify regressions.
