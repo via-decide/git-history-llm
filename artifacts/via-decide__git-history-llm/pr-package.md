@@ -1,9 +1,9 @@
-Branch: simba/add-end-to-end-integrity-verification-using-hash
-Title: Add end-to-end integrity verification using hash chaining to detect c...
+Branch: simba/add-time-travel-debugging-and-execution-trace-sn
+Title: Add time-travel debugging and execution trace snapshots to enable ful...
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Add end-to-end integrity verification using hash chaining to detect corruption and guarantee trust in all processed outputs.
+- Goal: Add time-travel debugging and execution trace snapshots to enable full forensic analysis and step-by-step replay of pipeline behavior.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
