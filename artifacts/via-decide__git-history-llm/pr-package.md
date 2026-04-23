@@ -1,9 +1,9 @@
-Branch: simba/add-authentication-and-authorization-layer-to-se
-Title: Add authentication and authorization layer to secure control plane ac...
+Branch: simba/add-tamper-evident-audit-logging-for-all-control
+Title: Add tamper-evident audit logging for all control-plane and authentica...
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Add authentication and authorization layer to secure control plane access and restrict visibility based on roles.
+- Goal: Add tamper-evident audit logging for all control-plane and authentication events using hash chaining.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
