@@ -1,9 +1,9 @@
-Branch: simba/enforce-deterministic-llm-output-by-adding-input
-Title: Enforce deterministic LLM output by adding input normalization, outpu...
+Branch: simba/add-confidence-scoring-and-gating-to-ensure-only
+Title: Add confidence scoring and gating to ensure only high-quality, reliab...
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Enforce deterministic LLM output by adding input normalization, output canonicalization, and double-run consistency verification.
+- Goal: Add confidence scoring and gating to ensure only high-quality, reliable summaries are accepted and stored.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
