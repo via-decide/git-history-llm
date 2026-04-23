@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Add execution modes and feature flag system to control behavior, enable safe rollouts, and prevent system-wide failures during changes.
+Add feedback loop and performance scoring system to continuously evaluate system quality and detect degradation trends over time.
 
 RULES
 1. Audit touched files first and identify regressions.
