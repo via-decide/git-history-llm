@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Add confidence scoring and gating to ensure only high-quality, reliable summaries are accepted and stored.
+Add semantic deduplication and caching to eliminate redundant LLM processing for identical or similar commits.
 
 RULES
 1. Audit touched files first and identify regressions.

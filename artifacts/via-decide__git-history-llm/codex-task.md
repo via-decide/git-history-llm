@@ -1,10 +1,10 @@
 You are working in repository via-decide/git-history-llm on branch main.
 
 MISSION
-Add confidence scoring and gating to ensure only high-quality, reliable summaries are accepted and stored.
+Add semantic deduplication and caching to eliminate redundant LLM processing for identical or similar commits.
 
 CONSTRAINTS
-- Max 1 new file - No external dependencies - Scoring must be lightweight (string + heuristic based) - Must not conflict with determinism checks
+- Max 1 new file - No external dependencies - Cache must be in-memory only - Lookup latency <5ms
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
