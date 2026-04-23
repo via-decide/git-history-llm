@@ -1,10 +1,10 @@
 You are working in repository via-decide/git-history-llm on branch main.
 
 MISSION
-Add multi-level fallback and degraded execution mode to ensure the system produces usable summaries even when LLM fails.
+Add versioned execution contracts and compatibility enforcement to prevent breaking changes and ensure safe system evolution.
 
 CONSTRAINTS
-- Max 1 new file - No external dependencies - Fallback must execute <50ms - Must remain compatible with determinism and scoring layers
+- Max 1 new file - No external dependencies - Migration must be lightweight (<10ms per record) - Must not break determinism or caching logic
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
