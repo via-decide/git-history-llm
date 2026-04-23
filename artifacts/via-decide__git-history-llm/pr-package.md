@@ -1,9 +1,9 @@
-Branch: simba/add-feedback-loop-and-performance-scoring-system
-Title: Add feedback loop and performance scoring system to continuously eval...
+Branch: simba/add-adaptive-control-system-to-dynamically-adjus
+Title: Add adaptive control system to dynamically adjust execution parameter...
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Add feedback loop and performance scoring system to continuously evaluate system quality and detect degradation trends over time.
+- Goal: Add adaptive control system to dynamically adjust execution parameters based on performance feedback and prevent sustained degradation.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
