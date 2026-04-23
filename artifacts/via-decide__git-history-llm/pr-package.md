@@ -1,9 +1,9 @@
-Branch: simba/add-checkpointing-and-resumable-execution-to-ens
-Title: Add checkpointing and resumable execution to ensure zero progress los...
+Branch: simba/add-graceful-shutdown-and-signal-handling-to-ens
+Title: Add graceful shutdown and signal handling to ensure safe termination ...
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Add checkpointing and resumable execution to ensure zero progress loss and reliable recovery from interruptions or crashes.
+- Goal: Add graceful shutdown and signal handling to ensure safe termination without data loss or system corruption.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
