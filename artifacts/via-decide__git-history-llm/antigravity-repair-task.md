@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Add environment fingerprinting and execution sealing to detect environment drift and guarantee reproducible execution across systems.
+Add policy enforcement layer to restrict inputs and outputs, ensuring controlled and safe system behavior under defined rules.
 
 RULES
 1. Audit touched files first and identify regressions.
