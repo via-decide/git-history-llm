@@ -1,10 +1,10 @@
 You are working in repository via-decide/git-history-llm on branch main.
 
 MISSION
-Add checkpointing and resumable execution to ensure zero progress loss and reliable recovery from interruptions or crashes.
+Add graceful shutdown and signal handling to ensure safe termination without data loss or system corruption.
 
 CONSTRAINTS
-- Max 1 new file - No external dependencies - Checkpoint storage lightweight (file or memory snapshot) - Write overhead <10ms
+- Max 1 new file - No external dependencies - Shutdown overhead minimal (<5s max delay) - Must integrate with checkpoint system
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
