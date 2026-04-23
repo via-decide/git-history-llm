@@ -1,17 +1,17 @@
 {
   "repo": "via-decide/git-history-llm",
   "mode": "codex_then_antigravity",
-  "branch": "simba/add-versioned-execution-contracts-and-compatibil",
+  "branch": "simba/add-centralized-configuration-validation-and-run",
   "files_to_create": [
     "codex-task.md",
     "antigravity-repair-task.md",
     "pr-package.md",
     "execution.json",
-    "core/versioning.js"
+    "core/config.js"
   ],
   "files_to_modify": [],
   "codex_prompt_path": "codex-task.md",
   "repair_prompt_path": "antigravity-repair-task.md",
-  "synthesized_file": "core/versioning.js",
-  "synthesized_size": 23558
+  "synthesized_file": "core/config.js",
+  "synthesized_size": 15405
 }
