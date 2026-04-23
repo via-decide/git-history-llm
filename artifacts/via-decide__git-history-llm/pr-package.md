@@ -1,9 +1,9 @@
-Branch: simba/add-versioned-execution-contracts-and-compatibil
-Title: Add versioned execution contracts and compatibility enforcement to pr...
+Branch: simba/add-centralized-configuration-validation-and-run
+Title: Add centralized configuration validation and runtime guardrails to pr...
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Add versioned execution contracts and compatibility enforcement to prevent breaking changes and ensure safe system evolution.
+- Goal: Add centralized configuration validation and runtime guardrails to prevent invalid system states and misconfiguration failures.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests
