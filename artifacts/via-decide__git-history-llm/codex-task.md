@@ -1,10 +1,10 @@
 You are working in repository via-decide/git-history-llm on branch main.
 
 MISSION
-Add read-only control plane interface for system introspection, enabling external visibility without risking core execution integrity.
+Add authentication and authorization layer to secure control plane access and restrict visibility based on roles.
 
 CONSTRAINTS
-- Max 1 new file - No external dependencies - Query latency <10ms - Must not impact execution performance
+- Max 1 new file - No external dependencies - Auth check latency <5ms - Must not affect pipeline execution
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
