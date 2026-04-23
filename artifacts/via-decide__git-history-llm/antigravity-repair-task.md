@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Add invariant enforcement and runtime assertions to guarantee correctness and detect any internal logic violations immediately.
+Add checkpointing and resumable execution to ensure zero progress loss and reliable recovery from interruptions or crashes.
 
 RULES
 1. Audit touched files first and identify regressions.

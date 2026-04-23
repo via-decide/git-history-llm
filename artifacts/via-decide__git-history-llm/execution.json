@@ -1,17 +1,17 @@
 {
   "repo": "via-decide/git-history-llm",
   "mode": "codex_then_antigravity",
-  "branch": "simba/add-invariant-enforcement-and-runtime-assertions",
+  "branch": "simba/add-checkpointing-and-resumable-execution-to-ens",
   "files_to_create": [
     "codex-task.md",
     "antigravity-repair-task.md",
     "pr-package.md",
     "execution.json",
-    "core/invariants.js"
+    "core/checkpoint.js"
   ],
   "files_to_modify": [],
   "codex_prompt_path": "codex-task.md",
   "repair_prompt_path": "antigravity-repair-task.md",
-  "synthesized_file": "core/invariants.js",
-  "synthesized_size": 18436
+  "synthesized_file": "core/checkpoint.js",
+  "synthesized_size": 21654
 }
