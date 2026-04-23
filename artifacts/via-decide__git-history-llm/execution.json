@@ -1,17 +1,17 @@
 {
   "repo": "via-decide/git-history-llm",
   "mode": "codex_then_antigravity",
-  "branch": "simba/add-execution-modes-and-feature-flag-system-to-c",
+  "branch": "simba/add-feedback-loop-and-performance-scoring-system",
   "files_to_create": [
     "codex-task.md",
     "antigravity-repair-task.md",
     "pr-package.md",
     "execution.json",
-    "core/mode.js"
+    "core/feedback.js"
   ],
   "files_to_modify": [],
   "codex_prompt_path": "codex-task.md",
   "repair_prompt_path": "antigravity-repair-task.md",
-  "synthesized_file": "core/mode.js",
-  "synthesized_size": 17629
+  "synthesized_file": "core/feedback.js",
+  "synthesized_size": 15946
 }
