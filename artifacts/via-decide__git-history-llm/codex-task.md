@@ -1,10 +1,10 @@
 You are working in repository via-decide/git-history-llm on branch main.
 
 MISSION
-Add adaptive control system to dynamically adjust execution parameters based on performance feedback and prevent sustained degradation.
+Add stabilization controller with hysteresis and cooldown to prevent oscillations and ensure controlled adaptive behavior.
 
 CONSTRAINTS
-- Max 1 new file - No external dependencies - Adaptation overhead <5ms - Must integrate with config and mode systems
+- Max 1 new file (modify allowed) - No external dependencies - Stability checks overhead <5ms - Must not conflict with adaptive logic
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
