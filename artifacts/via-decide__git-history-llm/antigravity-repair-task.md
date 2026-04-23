@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Add graceful shutdown and signal handling to ensure safe termination without data loss or system corruption.
+Add end-to-end integrity verification using hash chaining to detect corruption and guarantee trust in all processed outputs.
 
 RULES
 1. Audit touched files first and identify regressions.
