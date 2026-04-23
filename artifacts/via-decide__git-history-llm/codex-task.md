@@ -1,10 +1,10 @@
 You are working in repository via-decide/git-history-llm on branch main.
 
 MISSION
-Add semantic deduplication and caching to eliminate redundant LLM processing for identical or similar commits.
+Add rate limiting and token budget enforcement to control LLM usage, prevent cost overruns, and stabilize processing under scale.
 
 CONSTRAINTS
-- Max 1 new file - No external dependencies - Cache must be in-memory only - Lookup latency <5ms
+- Max 1 new file - No external dependencies - Overhead <10% - Must not break determinism, scoring, or caching layers
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
