@@ -1,9 +1,9 @@
-Branch: simba/add-graceful-shutdown-and-signal-handling-to-ens
-Title: Add graceful shutdown and signal handling to ensure safe termination ...
+Branch: simba/add-end-to-end-integrity-verification-using-hash
+Title: Add end-to-end integrity verification using hash chaining to detect c...
 
 ## Summary
 - Repo orchestration task for via-decide/git-history-llm
-- Goal: Add graceful shutdown and signal handling to ensure safe termination without data loss or system corruption.
+- Goal: Add end-to-end integrity verification using hash chaining to detect corruption and guarantee trust in all processed outputs.
 
 ## Testing Checklist
 - [ ] Run unit/integration tests

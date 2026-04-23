@@ -1,10 +1,10 @@
 You are working in repository via-decide/git-history-llm on branch main.
 
 MISSION
-Add graceful shutdown and signal handling to ensure safe termination without data loss or system corruption.
+Add end-to-end integrity verification using hash chaining to detect corruption and guarantee trust in all processed outputs.
 
 CONSTRAINTS
-- Max 1 new file - No external dependencies - Shutdown overhead minimal (<5s max delay) - Must integrate with checkpoint system
+- Max 1 new file - No external dependencies - Hash computation lightweight (<2ms per commit) - Must integrate with checkpoint and cache layers
 
 PROCESS (MANDATORY)
 1. Read README.md and AGENTS.md before editing.
