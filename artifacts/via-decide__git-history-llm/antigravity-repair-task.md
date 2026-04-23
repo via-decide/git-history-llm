@@ -4,7 +4,7 @@ TARGET
 Validate and repair only the files touched by the previous implementation.
 
 TASK
-Add checkpointing and resumable execution to ensure zero progress loss and reliable recovery from interruptions or crashes.
+Add graceful shutdown and signal handling to ensure safe termination without data loss or system corruption.
 
 RULES
 1. Audit touched files first and identify regressions.
