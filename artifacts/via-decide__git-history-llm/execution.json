@@ -1,17 +1,17 @@
 {
   "repo": "via-decide/git-history-llm",
   "mode": "codex_then_antigravity",
-  "branch": "simba/add-graceful-shutdown-and-signal-handling-to-ens",
+  "branch": "simba/add-end-to-end-integrity-verification-using-hash",
   "files_to_create": [
     "codex-task.md",
     "antigravity-repair-task.md",
     "pr-package.md",
     "execution.json",
-    "core/shutdown.js"
+    "core/integrity.js"
   ],
   "files_to_modify": [],
   "codex_prompt_path": "codex-task.md",
   "repair_prompt_path": "antigravity-repair-task.md",
-  "synthesized_file": "core/shutdown.js",
-  "synthesized_size": 10134
+  "synthesized_file": "core/integrity.js",
+  "synthesized_size": 11895
 }
